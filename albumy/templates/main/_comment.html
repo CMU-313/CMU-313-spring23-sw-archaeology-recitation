@@ -56,7 +56,8 @@
                                     <a class="dropdown-item" data-toggle="modal" href="#!"
                                        data-href="{{ url_for('.delete_comment', comment_id=comment.id) }}"
                                        data-target="#confirm-delete">
-                                    <span class="oi oi-trash" aria-hidden="true"></span> Delete
+                                    <span class="oi oi-trash" aria-hidden="true"></span> Ciao
+                                    <!-- if comfirm delete == delete then implement delete logic where I delete the entire comment -->
                                   </a>
                                 {% endif %}
                                 {% if current_user != comment.author %}
